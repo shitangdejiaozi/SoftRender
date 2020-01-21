@@ -1,0 +1,83 @@
+﻿  SoftRender.cpp
+e:\vs-project\softrender\softrender\softrender\rasterizer.h(88): warning C4244: “初始化”: 从“const _Ty”转换到“int”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+e:\vs-project\softrender\softrender\softrender\rasterizer.h(89): warning C4244: “初始化”: 从“const _Ty”转换到“int”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+e:\vs-project\softrender\softrender\softrender\rasterizer.h(90): warning C4244: “初始化”: 从“const _Ty”转换到“int”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+e:\vs-project\softrender\softrender\softrender\rasterizer.h(91): warning C4244: “初始化”: 从“const _Ty”转换到“int”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+e:\vs-project\softrender\softrender\softrender\rasterizer.h(93): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+e:\vs-project\softrender\softrender\softrender\rasterizer.h(95): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+e:\vs-project\softrender\softrender\softrender\rasterizer.h(101): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+e:\vs-project\softrender\softrender\softrender\rasterizer.h(102): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+e:\vs-project\softrender\softrender\softrender\rasterizer.h(103): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+e:\vs-project\softrender\softrender\softrender\rasterizer.h(106): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+e:\vs-project\softrender\softrender\softrender\rasterizer.h(120): warning C4244: “初始化”: 从“const _Ty”转换到“int”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+  e:\vs-project\softrender\softrender\softrender\rasterizer.h(325): note: 参见对正在编译的函数 模板 实例化“void Rasterizer::DrawTriangleByBlock<T>(const Vertex &,const Vertex &,const Vertex &) const”的引用
+          with
+          [
+              T=PixelShader
+          ]
+  e:\vs-project\softrender\softrender\softrender\rasterizer.h(313): note: 参见对正在编译的函数 模板 实例化“void Rasterizer::DrawTriangleMode<T>(const Vertex &,const Vertex &,const Vertex &) const”的引用
+          with
+          [
+              T=PixelShader
+          ]
+  e:\vs-project\softrender\softrender\softrender\softrender.cpp(45): note: 参见对正在编译的函数 模板 实例化“void Rasterizer::SetPixelShader<PixelShader>(void)”的引用
+e:\vs-project\softrender\softrender\softrender\rasterizer.h(121): warning C4244: “初始化”: 从“const _Ty”转换到“int”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+e:\vs-project\softrender\softrender\softrender\rasterizer.h(122): warning C4244: “初始化”: 从“const _Ty”转换到“int”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+e:\vs-project\softrender\softrender\softrender\rasterizer.h(123): warning C4244: “初始化”: 从“const _Ty”转换到“int”，可能丢失数据
+          with
+          [
+              _Ty=float
+          ]
+e:\vs-project\softrender\softrender\softrender\rasterizer.h(134): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+e:\vs-project\softrender\softrender\softrender\rasterizer.h(136): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+e:\vs-project\softrender\softrender\softrender\pixelshaderbase.h(35): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+  e:\vs-project\softrender\softrender\softrender\pixelshaderbase.h(17): note: 编译 类 模板 成员函数 "void PixelShaderBase<PixelShader>::RasterizerBlock(const TriangleEquation &,float,float,bool,int)" 时
+  e:\vs-project\softrender\softrender\softrender\rasterizer.h(176): note: 参见对正在编译的函数 模板 实例化“void PixelShaderBase<PixelShader>::RasterizerBlock(const TriangleEquation &,float,float,bool,int)”的引用
+  e:\vs-project\softrender\softrender\softrender\softrender.cpp(20): note: 参见对正在编译的 类 模板 实例化 "PixelShaderBase<PixelShader>" 的引用
+e:\vs-project\softrender\softrender\softrender\pixelshaderbase.h(36): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+e:\vs-project\softrender\softrender\softrender\rasterizer.h(252): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+  e:\vs-project\softrender\softrender\softrender\rasterizer.h(214): note: 参见对正在编译的函数 模板 实例化“void Rasterizer::DrawTopFlatTriangle<T>(const TriangleEquation &,const Vertex &,const Vertex &,const Vertex &) const”的引用
+          with
+          [
+              T=PixelShader
+          ]
+  e:\vs-project\softrender\softrender\softrender\rasterizer.h(322): note: 参见对正在编译的函数 模板 实例化“void Rasterizer::DrawTriangleByScanLine<T>(const Vertex &,const Vertex &,const Vertex &) const”的引用
+          with
+          [
+              T=PixelShader
+          ]
+e:\vs-project\softrender\softrender\softrender\rasterizer.h(266): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+  e:\vs-project\softrender\softrender\softrender\rasterizer.h(221): note: 参见对正在编译的函数 模板 实例化“void Rasterizer::DrawBottomFlatTriangle<T>(const TriangleEquation &,const Vertex &,const Vertex &,const Vertex &) const”的引用
+          with
+          [
+              T=PixelShader
+          ]
+  SoftRender.vcxproj -> E:\vs-project\SoftRender\SoftRender\Debug\SoftRender.exe
