@@ -2,10 +2,9 @@
 //
 
 #include <iostream>
-#include <math.h>
-#include <stdio.h>
 #include <random>
 #include <SDL.h>
+#include <math.h>
 
 #include "BasicStruct.h"
 #include "EdgeEquation.h"
@@ -13,6 +12,7 @@
 #include "Rasterizer.h"
 
 using namespace std;
+using namespace SR;
 
 const int SCREEN_WIDTH = 640;
 const int SCREEN_HEIGHT = 480;
@@ -46,25 +46,25 @@ void DrawTrangle(SDL_Surface* screen)
 	r.SetRasterMode(RasterMode::Block); //修改光栅化的方式
 	PixelShader::surface = screen;
 
-	Vertex v0, v1, v2;
+	RasterizerVertex v0, v1, v2;
 	v0.x = 320;
 	v0.y = 100;
-	v0.aver[0] = 1.0f;
-	v0.aver[1] = 0.0f;
-	v0.aver[2] = 0.0f;
+	v0.avar[0] = 1.0f;
+	v0.avar[1] = 0.0f;
+	v0.avar[2] = 0.0f;
 
 	v1.x = 480;
 	v1.y = 200;
-	v1.aver[0] = 0.0f;
-	v1.aver[1] = 1.0f;
-	v1.aver[2] = 0.0f;
+	v1.avar[0] = 0.0f;
+	v1.avar[1] = 1.0f;
+	v1.avar[2] = 0.0f;
 
 	v2.x = 120;
 	v2.y = 300;
 
-	v2.aver[0] = 0.0f;
-	v2.aver[1] = 0.0f;
-	v2.aver[2] = 1.0f;
+	v2.avar[0] = 0.0f;
+	v2.avar[1] = 0.0f;
+	v2.avar[2] = 1.0f;
 	r.DrawTriangle(v0, v1, v2);
 }
 
@@ -80,7 +80,7 @@ int main(int argc, char * args[])
 	//Initialize SDL  初始化SDL视频子系统
 	if (SDL_Init(SDL_INIT_VIDEO) < 0)
 	{
-		printf("SDL could not initialize! SDL_Error: %s\n", SDL_GetError());
+		//printf("SDL could not initialize! SDL_Error: %s\n", SDL_GetError());
 		return 0;
 	}
 
@@ -94,7 +94,7 @@ int main(int argc, char * args[])
 	);
 	if (window == NULL)
 	{
-		printf("Window could not be created! SDL_Error: %s\n", SDL_GetError());
+		//printf("Window could not be created! SDL_Error: %s\n", SDL_GetError());
 		return 0;
 	}
 
